@@ -1,3 +1,17 @@
+# integrate kamon probe, with promethues and zipkin
+
+metrics endpoint embedded with play route, see path `/metrics`
+
+# integrate release and build info 
+
+release to `sbt release`
+
+build info to see path `/version`
+
+# integrate docker
+
+go to `sbt docker:publishLocal`
+
 # play-scala-seed.g8
 
 Giter8 template for generating a Play project seed in Scala.  
